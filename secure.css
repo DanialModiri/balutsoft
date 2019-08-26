@@ -20,19 +20,69 @@
     margin-top: 128px;
 }
 
-.secure .secure-service img {
-    width: 450px;
+.secure img {
+    width: 480px;
     object-fit: cover;
+    padding: 0;
+    margin-right: 4px;
     margin-top: 64px;
 }
 
-.secure .secure-service .secure-service-card .title{
-    font-size: 24px;
+.secure .secure-service-card .title{
+    font-size: 26px;
     direction: rtl;
+    margin-bottom: 8px;
 }
 
-.secure .secure-service .secure-service-card .des{
+.secure  .secure-service-card .des{
     width: 340px;
     direction: rtl;
     font-size: 14px;
+}
+
+.secure .secure-service-card .checkboxes li img {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+}
+
+.secure .secure-service-card .checkboxes li span {
+    margin: auto 0;
+    color: #cccccc;
+    margin-right: 8px;
+}
+
+.secure-service-card .checkboxes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 13px;
+    color: #b4b4b4;
+    margin-top: 16px;
+}
+ .secure-service-card .checkboxes li {
+    padding: 0;
+    display: flex;
+    line-height: initial;
+    margin-top: 8px;
+}
+
+.secure .secure-domain {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    color: white;
+}
+
+.secure .secure-domain .checkboxes {
+    direction: rtl;
+}
+
+.secure .secure-domain img {
+    width: 360px;
+    object-fit: cover;
+}
+
+.secure .secure-service .secure-service-card .read-more{
+    margin-top: 32px;
 }
