@@ -42,7 +42,30 @@ header {
     margin-left: 16px;
 }
 
+.main-menu {
+    margin-top: 8px;
+    color: white;
+    display: flex;
+}
 
+.main-menu .left {
+    flex-grow: 1;
+}
+
+.main-menu .right {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu .right li {
+    margin-left: 12px;
+}
+
+.main-menu .right li:hover {
+    
+}
 
 * {
     padding: 0;
