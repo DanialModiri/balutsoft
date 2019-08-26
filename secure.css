@@ -1,0 +1,38 @@
+
+.secure {
+    height: 1200px;
+    background: url('./images/secureBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.secure .secure-service {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    color: white;
+    direction: rtl;
+}
+
+.secure .secure-service-card {
+    margin-top: 128px;
+}
+
+.secure .secure-service img {
+    width: 450px;
+    object-fit: cover;
+    margin-top: 64px;
+}
+
+.secure .secure-service .secure-service-card .title{
+    font-size: 24px;
+    direction: rtl;
+}
+
+.secure .secure-service .secure-service-card .des{
+    width: 340px;
+    direction: rtl;
+    font-size: 14px;
+}
