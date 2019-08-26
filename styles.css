@@ -6,3 +6,22 @@ header {
     max-width: 1050px;
     margin: 0 auto;
 }
+
+.head-menu {
+    display: flex;
+}
+
+.head-menu .left {
+    flex-grow: 1;
+    list-style-type: none;
+    display: flex;
+}
+
+.head-menu .left li {
+    margin-left: 4px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
