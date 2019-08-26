@@ -19,13 +19,13 @@ header {
 
 .head-section {
     background: url('./images/MainBackgroundRtl.png');
-    height: 850px;
+    height: 1200px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .container {
-    width: 1050px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 

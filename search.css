@@ -1,3 +1,51 @@
 .search {
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+.search * {
+    outline: none;
+}
+
+.search p {
+    text-align: center;
+    color: white;
+}
+
+.search .search-input {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: white;
+
+    border-radius: 16px;
+
+}
+
+.search .search-input input {
+    border: 1px solid #eeeeee;
+    text-align: left;
+    width: 270px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.search .search-input select {
+    border: none;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+.search .search-input button {
+    border-radius: 16px;
+    border: 0;
+    padding: 0 16px;
+    background-color: #eeeeee;
     
 }
