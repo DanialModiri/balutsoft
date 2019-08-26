@@ -1,11 +1,46 @@
 .intro {
     display: flex;
-    direction: rtl;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .intro .intro-card {
     padding: 8px;
     color: white;
+    width: 220px;
+}
+
+.intro .intro-card p {
+    font-size: 36px;
+    text-align: right;
+    
+}
+
+.intro .intro-card .intro-btn {
+    padding: 4px;
+    border: 0;
+    background-color: #af533c;
+    color: rgb(241, 241, 241);
+    text-align: right;
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 4px 12px;
+    margin-top: 8px;
+    transition: .2s;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.intro .intro-card .intro-btn:hover {
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.intro .intro-card span {
+    color: #bebebe;
+    font-size: 14px;
+    display: block;
+    
 }
 
 

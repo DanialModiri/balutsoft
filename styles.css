@@ -18,13 +18,14 @@ header {
 
 
 .head-section {
-    background: url('./images/MainBackground.png');
+    background: url('./images/MainBackgroundRtl.png');
     height: 850px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -36,6 +37,7 @@ header {
     flex-grow: 1;
     list-style-type: none;
     display: flex;
+    
 }
 
 .head-menu .left li {
@@ -43,13 +45,15 @@ header {
 }
 
 .main-menu {
-    margin-top: 8px;
+    margin-top: 16px;
     color: white;
     display: flex;
+    direction: rtl;
 }
 
 .main-menu .left {
     flex-grow: 1;
+    font-size: 21px;
 }
 
 .main-menu .right {
@@ -58,6 +62,7 @@ header {
     padding: 0;
     margin: 0;
     margin: auto 0;
+
 }
 
 .main-menu .right li {
@@ -78,6 +83,7 @@ header {
     padding: 0;
     margin: 0;
     font-family: IRANSans;
+    text-align: right;
 }
 
 a {
