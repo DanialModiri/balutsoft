@@ -1,0 +1,18 @@
+.intro {
+    display: flex;
+    direction: rtl;
+}
+
+.intro .intro-card {
+    padding: 8px;
+    color: white;
+}
+
+.intro .intro-card h3 {
+    
+}
+
+.intro img {
+    object-fit: cover;
+    width: 670px;
+}

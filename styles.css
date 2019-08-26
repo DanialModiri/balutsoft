@@ -1,9 +1,30 @@
 header {
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    padding: 7px 0;
+}
+
+.underline {
+    width: 0;
+    display: block;
+    background-color: white;
+    height: 3px;
+    transition: .2s ease-in-out;
+    margin: 0 auto;
+}
+
+.head-menu li:hover .underline{
+    width: 100%;
+}
+
+
+.head-section {
+    background: url('./images/MainBackground.png');
+    height: 850px;
+    background-size: cover;
 }
 
 .container {
-    max-width: 1050px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -18,10 +39,19 @@ header {
 }
 
 .head-menu .left li {
-    margin-left: 4px;
+    margin-left: 16px;
 }
+
+
 
 * {
     padding: 0;
     margin: 0;
+    font-family: IRANSans;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
