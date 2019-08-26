@@ -1,0 +1,53 @@
+.why-us {
+    background:         linear-gradient(
+        rgba(0, 34, 97, 0.7), 
+        rgba(0, 34, 97, 0.7)
+      ),url('./images/whyUsBackground.png');
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.why-us .why-us-overlay {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.why-us-card button {
+    padding: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 0;
+    margin-top: 16px;
+}
+
+.why-us .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    direction: rtl;
+}
+
+.why-us-card {
+    padding: 8px;
+    color: white;
+    width: 440px;
+}
+
+.why-us-card p:nth-child(1) {
+    font-size: 32px;
+}
+
+.why-us-card p:nth-child(2) {
+    font-size: 17px;
+}
+
+.why-us .container img {
+    object-fit: cover;
+    width: 440px;
+}
