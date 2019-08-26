@@ -57,15 +57,22 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin: auto 0;
 }
 
 .main-menu .right li {
-    margin-left: 12px;
+    margin-left: 20px;
+
 }
 
-.main-menu .right li:hover {
-    
+.main-menu .right li:hover .underline {
+    width: 100%;
 }
+
+.main-menu .right a {
+    font-size: 18px;
+}
+
 
 * {
     padding: 0;
