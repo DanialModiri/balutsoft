@@ -31,6 +31,14 @@
     color: white;
 }
 
+.light-blue {
+    background-color: #62e7ff !important;
+}
+
+.light-green {
+   background-color:  #62ff98 !important;
+}
+
 .plans .plan-card {
     margin-top: 32px;
     background-color: white;
@@ -42,6 +50,8 @@
     background: rgba(129,40,128,1);
     position: relative;
 }
+
+
 
 .plans .plan-card::after {
     position: absolute;
