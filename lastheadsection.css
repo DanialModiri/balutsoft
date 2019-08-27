@@ -12,6 +12,11 @@
     border-radius: 16px;
     margin-left: 32px;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4);
+    transition: .3s ease-in-out;
+}
+
+.last-head-section .card:hover {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.8);
 }
 
 .last-head-section .card img {
