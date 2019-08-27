@@ -1,0 +1,103 @@
+.plans-section {
+    background: linear-gradient(
+        rgba(0, 34, 97, 0.7), 
+        rgba(0, 34, 97, 0.7)
+      ), url('./images/123436e1cf5d7191549b93dace2e4feb.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 650px;
+}
+
+.plans-section .plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 32px;
+
+}
+
+.plans-section .container .title {
+    padding-top: 64px;
+}
+
+.plans-section .container .title .des {
+    text-align: center;
+    font-size: 14px;
+}
+
+.plans-section .container .title p {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.plans .plan-card {
+    margin-top: 32px;
+    background-color: white;
+    margin-left: 64px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4);
+    width: 230px;
+    box-sizing: border-box;
+    background: rgba(129,40,128,1);
+    position: relative;
+}
+
+.plans .plan-card::after {
+    position: absolute;
+    content: "خرید";
+    right: 12px;
+    bottom: 10px;
+    font-size: 17px;
+    color: white;
+    transform: rotate(-45deg);
+}
+
+.plans .plan-card .card-rad {
+    border-radius: 8px;
+    border-bottom-right-radius: 148px;
+    padding: 32px;
+    background-color: white;
+}
+
+.plans .plan-card .size {
+    display: flex;
+    direction: ltr;
+    justify-content: center;
+}
+
+
+.plans .plan-card .size .size-number {
+    font-size: 26px;
+}
+
+.plans .plan-card .size .unit {
+    font-size: 12px;
+    color: #686868;
+}
+
+.plans .plan-card .type {
+    color: #686868;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.plans .plan-card .specs {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plans .plan-card .price {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.plans .plan-card .specs li {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #686868;
+}

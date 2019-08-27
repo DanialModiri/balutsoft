@@ -1,6 +1,7 @@
 .services {
     padding: 16px;
     padding-bottom: 64px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 .services .head-title {
