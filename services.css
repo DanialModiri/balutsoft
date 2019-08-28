@@ -1,18 +1,3 @@
-
-@keyframes bgColor {
-    from {
-        background-color: blue;
-    }
-
-    to {
-        background-color: white;
-    }
-}
-
-.services-animation {
-    animation: bgColor 1s ease-in-out;
-}
-
 .services {
     padding: 16px;
     padding-bottom: 64px;

@@ -8,6 +8,7 @@
     padding: 8px;
     color: white;
     width: 220px;
+    animation: main-menu-animation 1s ease-in-out;
 }
 
 .intro .intro-card p {
@@ -47,4 +48,5 @@
 .intro img {
     object-fit: cover;
     width: 670px;
+    animation: main-menu-animation 1s ease-in-out;
 }

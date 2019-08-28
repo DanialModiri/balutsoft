@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="./animations.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./font.css">
     <link rel="stylesheet" href="./intro.css">
     <link rel="stylesheet" href="./search.css">
     <link rel="stylesheet" href="./lastheadsection.css">
@@ -16,6 +17,8 @@
     <link rel="stylesheet" href="./plans.css">
     <link rel="stylesheet" href="./footer.css">
     <title>Balutsoft</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+
 </head>
 
 <body>
@@ -109,7 +112,7 @@
                             </option>
                         </select>
                     </div>
- 
+
                     <button>
                         جستوجو
                     </button>
@@ -151,12 +154,9 @@
         </div>
     </div>
 
-    <div class="why-us">
-        <div class="why-us-overlay">
-
-        </div>
+    <div id="why-us" data-animation="fade-in" class="why-us">
         <div class="container">
-            <div class="why-us-card">
+            <div class="why-us-card revealOnScroll" data-animation="slide-from-left" >
                 <p>
                     چرا ما
                 </p>
@@ -187,8 +187,8 @@
                 وب سایت شما درست نمایش داده می‌شود.
             </p>
 
-            <div class="cards">
-                <div class="service-card">
+            <div class="cards revealOnScroll" data-animation="fade-in">
+                <div class="service-card"  >
                     <img src="./images/cloud-hosting.png" />
                     <p class="title">هاستینگ کلود</p>
                     <p class="des">
@@ -196,7 +196,7 @@
                         صورت گرافیکی طراحی خواهند کرد و جزئیات طرح شما را مشخص می‌کنند.
                     </p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" >
                     <img src="./images/dec-host.png" />
                     <p class="title">هاست اختصاصی </p>
                     <p class="des">
@@ -204,7 +204,7 @@
                         وب سایت به تمیزترین و اصولی‌ترین شکل ممکن انجام می‌شود.
                     </p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" >
                     <img src="./images/shared-hosting.png" />
                     <p class="title">هاستینگ توضع شده</p>
                     <p class="des">
@@ -212,7 +212,7 @@
                         وب سایت به تمیزترین و اصولی‌ترین شکل ممکن انجام می‌شود.
                     </p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" >
                     <img src="./images/reseller-hosting.png" />
                     <p class="title">هاستینگ توضع شده</p>
                     <p class="des">
@@ -220,7 +220,7 @@
                         وب سایت به تمیزترین و اصولی‌ترین شکل ممکن انجام می‌شود.
                     </p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" >
                     <img src="./images/vps-hosting.png" />
                     <p class="title">هاستینگ وی پی اس</p>
                     <p class="des">
@@ -228,7 +228,7 @@
                         وب سایت به تمیزترین و اصولی‌ترین شکل ممکن انجام می‌شود.
                     </p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" >
                     <img src="./images/domain-reg.png" />
                     <p class="title">ثبت دامین</p>
                     <p class="des">
@@ -332,7 +332,7 @@
                     طراحی وب سایت اختصاصی شما در 3 مرحله انجام خواهد شد
                 </p>
             </div>
-            <div class="plans">
+            <div id="plans" data-animation="fade-in" class="plans">
                 <div class="plan-card">
                     <div class="card-rad">
                         <p class="type">
@@ -486,6 +486,8 @@
 
         </div>
     </footer>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
