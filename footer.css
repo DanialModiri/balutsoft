@@ -9,3 +9,18 @@ footer {
     justify-content: space-around;
     
 }
+
+.footer-items{
+    list-style-type: none;
+}
+
+.footer-items li {
+    padding: 4px;
+    font-size: 11px;
+
+    
+}
+
+.footer-items li a {
+    color: #c2c2c2;
+}

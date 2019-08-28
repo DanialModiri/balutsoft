@@ -9,6 +9,16 @@
     }
 }
 
+@keyframes slide-from-left-plan {
+    from {
+        transform: translateX(450px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
 @keyframes main-menu-animation {
     from {
         opacity: 0;
@@ -30,4 +40,8 @@
 
 .fade-in-services .service-card {
     animation: main-menu-animation 1s ease-in-out;
+}
+
+.slide-from-left-plan {
+    animation: slide-from-left-plan 1s ease-in-out;
 }
