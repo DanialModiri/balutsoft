@@ -9,6 +9,17 @@
     }
 }
 
+@keyframes slide-with-fade {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 @keyframes slide-from-left-plan {
     from {
         transform: translateX(450px);
@@ -44,4 +55,8 @@
 
 .slide-from-left-plan {
     animation: slide-from-left-plan 1s ease-in-out;
+}
+
+.slide-with-fade {
+    animation: slide-with-fade 1s ease-in-out;
 }
