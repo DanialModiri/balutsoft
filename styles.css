@@ -55,6 +55,7 @@ header {
 .main-menu .left {
     flex-grow: 1;
     font-size: 21px;
+    margin-right: 16px;
 }
 
 .main-menu .right {
@@ -104,6 +105,10 @@ a {
         flex-wrap: wrap;
         justify-content: initial;
         box-sizing: border-box;
+    }
+
+    .main-menu .right {
+        margin-right: 16px;
     }
 
 }
