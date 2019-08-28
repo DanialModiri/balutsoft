@@ -51,3 +51,11 @@
     object-fit: cover;
     width: 440px;
 }
+
+@media screen and (max-width: 768px) {
+    .why-us {
+        padding: 16px;
+        min-height: 550px;
+        height: initial;
+    }
+}

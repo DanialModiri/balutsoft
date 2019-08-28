@@ -1,6 +1,6 @@
 
 .secure {
-    height: 1200px;
+    min-height: 1200px;
     background: url('./images/secureBackground.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@
 }
 
 .secure  .secure-service-card .des{
-    width: 340px;
+    max-width: 340px;
     direction: rtl;
     font-size: 14px;
 }

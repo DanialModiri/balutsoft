@@ -19,7 +19,7 @@ header {
 
 .head-section {
     background: url('./images/MainBackgroundRtl.png');
-    height: 1200px;
+    min-height: 1200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
@@ -92,4 +92,18 @@ a {
     color: white;
     text-decoration: none;
     font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    * {
+        flex-wrap: wrap;
+        justify-content: initial;
+        box-sizing: border-box;
+    }
+
 }

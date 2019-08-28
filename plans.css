@@ -111,3 +111,17 @@
     font-size: 14px;
     color: #686868;
 }
+
+@media screen and (max-width: 768px) {
+    .plans .plan-card .size {
+        justify-content: center;
+    }
+    .plans .plan-card {
+        margin: auto;
+        margin-bottom: 16px;
+    }
+
+    .plans {
+        margin-top: 16px;
+    }
+}
