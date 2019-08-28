@@ -1,20 +1,27 @@
 
 @keyframes slide-from-left {
     
-    from {
-        transform: translateX(100%);
+    0% {
+        transform: translateX(160%);
     }
-    to {
+    30% {
+        transform: translateX(160%);
+    }
+    100% {
         transform: translateX(0px);
     }
 }
 
 @keyframes slide-with-fade {
-    from {
+    0% {
         transform: translateX(100%);
         opacity: 0;
     }
-    to {
+    30% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
         transform: translateX(0);
         opacity: 1;
     }
@@ -31,11 +38,15 @@
 }
 
 @keyframes main-menu-animation {
-    from {
+    0% {
         opacity: 0;
         transform: translateY(15px);
     }
-    to {
+    33% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
