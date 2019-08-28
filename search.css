@@ -50,6 +50,9 @@
     background-color: white;
     box-shadow: none;
     outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 8px;
 }
 
 .search .search-input select::after {
@@ -68,8 +71,4 @@
 
 .search .search-input button:hover {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.5);
-}
-
-.select select {
-    display: none;
 }

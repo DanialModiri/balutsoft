@@ -4,7 +4,7 @@
     background:         linear-gradient(
         rgba(0, 34, 97, 0.7), 
         rgba(0, 34, 97, 0.7)
-      ),url('./images/whyUsBackground.png');
+      ), url('./images/whyUsBackground.png');
     height: 550px;
     background-size: cover;
     background-repeat: no-repeat;

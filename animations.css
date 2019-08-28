@@ -4,7 +4,7 @@
     0% {
         transform: translateX(160%);
     }
-    30% {
+    20% {
         transform: translateX(160%);
     }
     100% {
@@ -17,7 +17,7 @@
         transform: translateX(100%);
         opacity: 0;
     }
-    30% {
+    20% {
         transform: translateX(100%);
         opacity: 0;
     }
@@ -42,7 +42,7 @@
         opacity: 0;
         transform: translateY(15px);
     }
-    33% {
+    20% {
         opacity: 0;
         transform: translateY(15px);
     }
@@ -70,4 +70,18 @@
 
 .slide-with-fade {
     animation: slide-with-fade 1s ease-in-out;
+}
+
+@keyframes whyus-background {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.whyus-background {
+    animation: whyus-background 1s ease-in-out;
 }
