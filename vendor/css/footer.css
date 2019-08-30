@@ -31,6 +31,10 @@ footer {
         flex-wrap: wrap;
     }
 
+    .footer-items {
+        margin-right: 8px;
+    }
+
     .footer-menu-item {
         width: 100%;
     }
